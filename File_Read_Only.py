@@ -1,0 +1,5 @@
+file = open("Sample.txt","r")
+content = file.read(5)
+print("\n File is Read Only Mode")
+print(content)
+file.close()
